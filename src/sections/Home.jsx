@@ -17,7 +17,7 @@ function Home() {
       </div>
       <div className="text-center font-mono z-10 px-4">
         <h1 className="text-4xl md:text-5xl lg:text-6xl lg:max-w[500px] font-semibold mb-6 px-1 bg-gradient-to-r from-teal-400 via-blue-500 to-indigo-600 bg-clip-text text-transparent leading-right ">
-          I am Hemanth Kuttuboyina
+          I am Hemanth
         </h1>
         <p className="text-gray-300 text-lg mb-8 max-w-lg mx-auto">
           I am a passionate Full Stack Developer with a knack for creating

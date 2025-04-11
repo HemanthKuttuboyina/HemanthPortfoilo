@@ -1,37 +1,33 @@
 import { useState } from "react";
-import dashboard from "../assets/dashboard-app.webp";
-import ecommerce from "../assets/e-commerce-app.png";
-import food from "../assets/food-app.jpg";
-import travel from "../assets/travel-app.jpg";
 import RevealOnScroll from "../Ui/RevealOnScroll";
-
+import ProjectRep from "../Ui/ProjectRep";
 function Projects() {
-  const [projects] = useState([
-    {
-      image: dashboard,
-      name: "Dashboard App",
-      brief:
-        "Scalable Dashboard App with CRUD operations manages all the bookings, users, guests and services.",
-    },
-    {
-      image: ecommerce,
-      name: "E-Commerce App",
-      brief:
-        "Scalable Dashboard App with CRUD operations manages all the bookings, users, guests and services.",
-    },
-    {
-      image: food,
-      name: "Food App",
-      brief:
-        "Scalable Dashboard App with CRUD operations manages all the bookings, users, guests and services.",
-    },
-    {
-      image: travel,
-      name: "Travel App",
-      brief:
-        "Scalable Dashboard App with CRUD operations manages all the bookings, users, guests and services.",
-    },
-  ]);
+  // const [projects] = useState([
+  //   {
+  //     image: Login,
+  //     name: "Login Page",
+  //     brief:
+  //       "Basic Login Page with authentication and authorization using Nodejs and Express.",
+  //     tech: ["Nodejs", "Express", "MongoDB"],
+  //     link: "https://github.com/HemanthKuttuboyina/real_Login",
+  //   },
+  //   {
+  //     image: ecommerce,
+  //     name: "E-Commerce App",
+  //     brief:
+  //       "Check the Amazon product price history and get notified when the price drops.",
+  //     tech: ["React", "Nodejs", "MongoDB", "Nextjs"],
+  //     link: "https://github.com/HemanthKuttuboyina/Next.js-E-Commerce-Aggregator",
+  //   },
+  //   {
+  //     image: UrlShortener,
+  //     name: "URL Shortener",
+  //     brief:
+  //       "A URL shortener is a web application that converts long URLs into shorter, more manageable links.",
+  //     tech: ["Nodejs", "Express", "MongoDB"],
+  //     link: "https://github.com/HemanthKuttuboyina/Node.js-URL-Shortener",
+  //   },
+  // ]);
   return (
     <section
       id="projects"
@@ -52,7 +48,7 @@ function Projects() {
                 <h3 className="font-semibold text-xl mb-4">{project.name}</h3>
                 <p className="text-gray-300 mb-4">{project.brief} </p>
                 <div className="flex flex-wrap sm:items-center gap-2 mb-4">
-                  {["React", "Supabase", "Vercel"].map((tech, index) => (
+                  {project.tech.map((tech, index) => (
                     <span
                       key={index}
                       className="bg-blue-500/10 text-blue-400 py-1 px-3 rounded-full text-balance hover:bg-blue-500/20 hover:shadow-[9_2px_8px_rgba(59,130,22.46,0.2)] transition "
@@ -74,11 +70,12 @@ function Projects() {
               </div>
             ))}
           </div> */}
-          <>
+          <ProjectRep />
+          {/* <>
             <h2 className="max-w-3xl text-4xl font-semibold mb-12 bg-gradient-to-r from-teal-500 to-indigo-600 bg-clip-text text-transparent text-center ">
               Updated soon ~~~
             </h2>
-          </>
+          </> */}
         </div>
       </RevealOnScroll>
     </section>

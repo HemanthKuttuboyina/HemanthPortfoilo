@@ -29,7 +29,7 @@ function Footer() {
             <FaSquareGithub />
           </a>
         </div>
-        <p>@ 2025 Hemanth all right reserved </p>
+        <p>@ 2025 Hemanth all rights reserved</p>
       </div>
     </footer>
   );

@@ -21,8 +21,7 @@ function Home() {
         </h1>
         <p className="text-gray-300 text-lg mb-8 max-w-lg mx-auto">
           I am a passionate Full Stack Developer with a knack for creating
-          dynamic and responsive web applications. I specialize in MERN stack
-          development, and I am always eager to learn new technologies and
+          dynamic and responsive web applications.I am always eager to learn new technologies and
           improve my skills. I enjoy solving complex problems and turning ideas into reality.
           <br /> I am currently looking for opportunities to work on exciting
         </p>

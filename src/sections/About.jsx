@@ -7,8 +7,7 @@ function About() {
     "TypeScript ",
     "React",
     "TailwindCSS",
-    "Node Js",
-    "AWS",
+    "Node Js",,
     "MongoDB",
     "GraphQL",
     "Express",
@@ -30,9 +29,8 @@ function About() {
             <p className="text-gray-300 mb-5 text-xl">
               Hello! I'm Hemanth Kuttuboyina, a passionate Full Stack Developer
               with a knack for creating dynamic and responsive web applications.
-              I specialize in MERN stack development, and I am always eager to
-              learn new technologies and improve my skills. I enjoy solving
-              complex problems and turning ideas into reality.
+              I am always eager to learn new technologies and improve my skills.
+              I enjoy solving complex problems and turning ideas into reality.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -58,13 +56,21 @@ function About() {
                 <li>
                   <strong>
                     {" "}
-                    <em>B-tech Computer Science</em>{" "}
+                    <em>B-tech Computer Science & Engineering</em>{" "}
                   </strong>
-                  Andhra Loyola Institute of Engineering and Technology, Vijayawada
-                  <br />* 2024 - 2026 | CGPA: 8.0/10
+                  Andhra Loyola Institute of Engineering and Technology,
+                  Vijayawada
+                  <br /> 2023 - 2026 | CGPA: 8.0/10
                 </li>
                 <li>
-                  
+                  <strong>
+                    {" "}
+                    <em>
+                      Diploma Electronics and Communication Engineering (ECE)
+                    </em>{" "}
+                    Bapatla Engineering College, Bapatla
+                    <br /> 2020 - 2023 | CGPA: 7.7/10
+                  </strong>
                 </li>
               </ul>
             </div>

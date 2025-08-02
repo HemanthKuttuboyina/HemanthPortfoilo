@@ -1,6 +1,6 @@
 import profileImg from "../assets/profileImg.png";
 import { FiDownload } from "react-icons/fi";
-import resume from "../assets/resume.pdf";
+import resume from "../assets/Hemanth.pdf";
 
 function Home() {
   return (

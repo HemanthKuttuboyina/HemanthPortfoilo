@@ -9,6 +9,7 @@ import Projects from "./sections/Projects";
 import { Contact } from "./sections/Contact";
 import RevealOnScroll from "./Ui/RevealOnScroll";
 import Footer from "./sections/Footer";
+import ChatbotOverlay from "./sections/ChatbotOverlay";
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);
@@ -28,6 +29,8 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
+
+      <ChatbotOverlay/>
     </>
   );
 }

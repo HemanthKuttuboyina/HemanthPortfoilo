@@ -1,0 +1,54 @@
+{
+  "name": "Hemanth Kuttuboyina",
+  "title": "Full-Stack Developer & AIML & DS ",
+  "bio": "I am a passionate developer specializing in React, Node.js, and Machine Learning. I love building scalable web apps and experimenting with AI technologies. My work focuses on creating modern, user-friendly solutions with a blend of creativity and engineering precision.",
+
+  "skills": [
+    "JavaScript (ES6+)",
+    "React.js",
+    "Node.js & Express",
+    "MongoDB",
+    "Tailwind CSS",
+    "Machine Learning (Scikit-learn, TensorFlow)",
+    "Git & GitHub",
+    "Appwrite"
+  ],
+
+  "projects": [
+    {
+      "name": "ShareHub",
+      "description": "A file-sharing and collaboration platform inspired by Google Classroom. Features username-only login, role-based access, and file sharing for documents and images.",
+      "technologies": ["React", "Appwrite", "Tailwind CSS"],
+      "link": "https://github.com/username/sharehub"
+    },
+    {
+      "name": "Portfolio Website",
+      "description": "My personal portfolio website showcasing projects, skills, and achievements, built with React and Tailwind CSS.",
+      "technologies": ["React", "Tailwind CSS", "Framer Motion"],
+      "link": "https://myportfolio.com"
+    }
+  ],
+
+  "experience": [
+    {
+      "role": "Frontend Developer Intern",
+      "company": "Tech Solutions Inc.",
+      "duration": "Jan 2023 - Jun 2023",
+      "details": "Worked on building responsive UIs, integrating APIs, and optimizing performance for client web apps."
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "Bachelor of Computer Science",
+      "institution": "ALIET",
+      "year": "2024"
+    }
+  ],
+
+  "contact": {
+    "email": "hemanth4017@gmail.com",
+    "linkedin": "https://linkedin.com/in/hemanthk",
+    "github": "https://github.com/HemanthKuttuboyina"
+  }
+}

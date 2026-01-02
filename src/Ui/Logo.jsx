@@ -1,9 +1,12 @@
 function Logo() {
   return (
-    <a href="#home" className="font-mono text-xl font-bold text-gray-300  ">
-      Hemanth{" "}
-      <span className="bg-gradient-to-r from-teal-400 via-blue-500 to-indigo-600 bg-clip-text text-transparent ">
-        Kuttuboyina
+    <a 
+      href="#home" 
+      className="text-2xl font-bold hover-lift transition-all duration-300 group"
+    >
+      <span className="text-white group-hover:text-gray-300 transition-colors">HK</span>
+      <span className="monochrome-text ml-2 group-hover:brightness-110 transition-all">
+        Portfolio
       </span>
     </a>
   );

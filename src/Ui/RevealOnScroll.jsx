@@ -1,16 +1,22 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
-function RevealOnScroll({ children }) {
+function RevealOnScroll({ children, delay = 0, threshold = 0.2 }) {
   const ref = useRef(null);
+  const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          ref.current.classList.add("visible");
+          setTimeout(() => {
+            setIsVisible(true);
+          }, delay);
         }
       },
-      { threshold: 0.2, rootMargin: "0px 0px -50px 0px" }
+      { 
+        threshold,
+        rootMargin: "0px 0px -50px 0px"
+      }
     );
 
     if (ref.current) {
@@ -18,10 +24,16 @@ function RevealOnScroll({ children }) {
     }
 
     return () => observer.disconnect();
-  });
+  }, [delay, threshold]);
 
   return (
-    <div ref={ref} className="reveal">
+    <div 
+      ref={ref} 
+      className={`reveal ${isVisible ? 'visible' : ''}`}
+      style={{
+        transitionDelay: `${delay}ms`
+      }}
+    >
       {children}
     </div>
   );

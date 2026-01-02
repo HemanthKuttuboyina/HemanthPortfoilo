@@ -1,6 +1,6 @@
-import profileImg from "../assets/profileImg.png";
+import profileHemanth from "../assets/profileImg.png";
 import { FiDownload } from "react-icons/fi";
-import resume from "../assets/Hemanth.pdf";
+import HEMANTHCV from "../assets/Hemanth.pdf";
 
 function Home() {
   return (
@@ -11,7 +11,7 @@ function Home() {
       <div className="text-center z-10 px-4">
         <img
           className="w-[200px] border-0 mt-20 rounded-full shadow-lg shadow-gray-500/70 lg:m-0 lg:max-w-[250px] object-cover object-bottom hover:translate-y-1 transition-all "
-          src={profileImg}
+          src={profileHemanth}
           alt="Profile Image"
         />
       </div>
@@ -34,7 +34,7 @@ function Home() {
           </a>
           <a
             className="bg-gradient-to-r flex flex-row from-teal-500 to-indigo-600 py-3 px-6 rounded hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]  font-medium transition relative overflow-hidden "
-            href={resume}
+            href={HEMANTHCV}
             download
           >
             <p>Resume </p>

@@ -9,7 +9,7 @@ export default function ChatbotOverlay() {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
 
-  // const GEMINI_API_KEY = #; // ⚠️ This will be visible to everyone
+  const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY || '';
 
   const sendMessage = async () => {
     if (!input.trim()) return;

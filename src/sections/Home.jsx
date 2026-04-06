@@ -28,14 +28,14 @@ function Home() {
         
         <div className="mb-8">
           <div className="inline-block px-4 py-2 rounded-full bg-glass text-white text-lg font-medium mb-6">
-            Full Stack Developer
+            Aspiring Data Scientist
           </div>
           
           <p className="text-gray-300 text-lg leading-relaxed">
-            I specialize in creating dynamic, responsive web applications with 
-            clean architecture and intuitive user experiences. Passionate about 
-            solving complex problems and turning innovative ideas into reality 
-            through elegant code and modern technologies.
+            I am a Computer Science student passionate about building intelligent systems through statistical 
+            modeling, machine learning, and data analytics. Currently driven by solving complex problems 
+            and deriving actionable insights from medical and real-world datasets to build 
+            future-ready AI solutions.
           </p>
         </div>
 
@@ -61,7 +61,7 @@ function Home() {
         <div className="mt-12">
           <p className="text-gray-400 text-sm mb-4">Currently working with:</p>
           <div className="flex flex-wrap justify-center gap-3">
-            {['React', 'Node.js', 'MongoDB', 'Express', 'Next.js', 'TypeScript'].map((tech) => (
+            {['Python', 'TensorFlow', 'PyTorch', 'Scikit-Learn', 'Pandas', 'SQL'].map((tech) => (
               <span 
                 key={tech}
                 className="px-4 py-2 rounded-lg bg-glass text-white/90 text-sm font-medium border border-white/5 hover:border-white/10 transition-colors"

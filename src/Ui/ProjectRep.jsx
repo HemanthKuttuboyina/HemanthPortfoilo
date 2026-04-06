@@ -1,36 +1,28 @@
 import React from 'react'
-import { ecommerce, Login, UrlShortener } from "../assets/Assets";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import arrhythmiaImg from "../assets/arrhythmia_img.png";
+import { UrlShortener } from "../assets/Assets";
 
 const ProjectRep = () => {
   const [projects] = React.useState([
     {
-      image: Login,
-      name: "Authentication System",
-      brief: "Secure login system with JWT authentication, password encryption, and session management. Features include role-based access control and email verification.",
-      tech: ["Node.js", "Express", "MongoDB", "JWT", "Bcrypt"],
-      link: "https://github.com/HemanthKuttuboyina/real_Login",
-      liveLink: "https://login-demo.example.com",
-      github: "https://github.com/HemanthKuttuboyina/real_Login"
-    },
-    {
-      image: ecommerce,
-      name: "E-Commerce Platform",
-      brief: "Full-featured e-commerce application with product catalog, shopping cart, payment integration, and admin dashboard for inventory management.",
-      tech: ["React", "Node.js", "MongoDB", "Next.js", "Stripe"],
-      link: "https://github.com/HemanthKuttuboyina/Next.js-E-Commerce-Aggregator",
-      liveLink: "https://ecommerce-demo.example.com",
-      github: "https://github.com/HemanthKuttuboyina/Next.js-E-Commerce-Aggregator"
+      image: arrhythmiaImg,
+      name: "Arrhythmia Detection System",
+      brief: "An advanced machine learning system designed to analyze ECG (Electrocardiogram) signals and accurately classify cardiac arrhythmias. Built using powerful predictive modeling and algorithms to assist in cardiovascular diagnostics.",
+      tech: ["Python", "TensorFlow", "Scikit-learn", "Pandas", "Matplotlib"],
+      link: "https://github.com/HemanthKuttuboyina/Arrhythmia-Detection-System",
+      liveLink: "https://github.com/HemanthKuttuboyina/Arrhythmia-Detection-System",
+      github: "https://github.com/HemanthKuttuboyina/Arrhythmia-Detection-System"
     },
     {
       image: UrlShortener,
-      name: "URL Shortener Service",
-      brief: "High-performance URL shortening service with analytics dashboard, custom aliases, and QR code generation for shortened links.",
+      name: "Dynamic URL Shortener Service",
+      brief: "High-performance dynamic URL shortening service demonstrating robust backend engineering. Features analytics tracking, custom aliases, and automated QR code generation, proving capability far beyond typical data science modeling.",
       tech: ["Node.js", "Express", "MongoDB", "Redis", "QR Code"],
-      link: "https://github.com/HemanthKuttuboyina/Node.js-URL-Shortener",
-      liveLink: "https://shortener-demo.example.com",
-      github: "https://github.com/HemanthKuttuboyina/Node.js-URL-Shortener"
-    },
+      link: "https://github.com/HemanthKuttuboyina/Node.js-URL-Shortener.git",
+      liveLink: "https://github.com/HemanthKuttuboyina/Node.js-URL-Shortener.git",
+      github: "https://github.com/HemanthKuttuboyina/Node.js-URL-Shortener.git"
+    }
   ]);
 
   return (

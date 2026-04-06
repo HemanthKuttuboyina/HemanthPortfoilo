@@ -2,48 +2,36 @@ import RevealOnScroll from "../Ui/RevealOnScroll";
 
 function About() {
   const skills = [
-    // Web Fundamentals
-    "HTML5",
-    "CSS3",
-    "JavaScript (ES6+)",
-    "TypeScript",
-
-    // Frontend
-    "React.js",
-    "Next.js",
-    "Tailwind CSS",
-
-    // Backend
-    "Node.js",
-    "Express.js",
-    "REST APIs",
-    "GraphQL",
-
-    // Databases
-    "MongoDB",
-    "SQL (Basics)",
-
-    // AI / ML
+    // Languages & Foundations
     "Python",
+    "SQL",
+    "R",
+    "Mathematics & Statistics",
+
+    // Machine Learning & AI
     "Machine Learning",
-    "Deep Learning (Basics)",
-    "Data Preprocessing",
-    "Model Evaluation",
+    "Deep Learning",
+    "TensorFlow / Keras",
+    "PyTorch",
     "Scikit-learn",
-    "NumPy",
+
+    // Data Processing & Analytics
     "Pandas",
+    "NumPy",
+    "Matplotlib / Seaborn",
+    "Data Preprocessing",
+    "Feature Engineering",
 
-    // Cloud & DevOps
-    "AWS (Basics)",
-    "EC2",
-    "S3",
-    "IAM",
-    "Cloud Computing Fundamentals",
-    "Docker (Basics)",
+    // Specialized Domains
+    "Predictive Modeling",
+    "Signal Processing (ECG)",
+    "Time Series Analysis",
 
-    // Tools & Others
+    // Tools & Deployment
+    "Jupyter Notebooks",
     "Git & GitHub",
-    "Linux (Basics)",
+    "Docker (Basics)",
+    "Cloud Computing Fundamentals",
   ];
 
   return (
@@ -65,21 +53,20 @@ function About() {
               <span className="text-white font-semibold">
                 Hemanth Kuttuboyina
               </span>
-              , a passionate Full Stack Developer with a strong foundation in
-              modern web technologies. I enjoy building scalable, responsive,
-              and user-friendly applications.
+              , a passionate Computer Science student and aspiring Data Scientist dedicated to
+              extracting actionable insights from complex datasets and building 
+              intelligent predictive models.
               <br />
               <br />
-              My experience spans frontend development with React and Next.js,
-              backend development using Node.js and Express, and database
-              management with MongoDB. I am also actively exploring Artificial
-              Intelligence, Machine Learning, and Cloud Computing to build
-              intelligent and scalable systems.
+              My analytical foundation lies in statistical analysis, predictive modeling, and developing
+              end-to-end AI pipelines. I am actively applying Python, TensorFlow, and 
+              advanced machine learning techniques to solve real-world challenges, such as 
+              healthcare diagnostics and signal processing.
               <br />
               <br />
-              I am a continuous learner who enjoys solving real-world problems,
-              writing clean and maintainable code, and transforming ideas into
-              practical digital solutions.
+              I am a continuous learner who enjoys tackling complex algorithmic problems,
+              optimizing data architectures, and deploying models that drive data-informed
+              decisions and practical digital solutions.
             </p>
           </div>
           </div>

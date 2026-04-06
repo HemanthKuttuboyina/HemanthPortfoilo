@@ -14,7 +14,7 @@ export const Contact = () => {
             </h2>
             <p className="text-gray-400 text-lg mb-8">
               Have a project in mind or want to collaborate? 
-              Feel free to reach out. I'll get back to you as soon as possible.
+              Feel free to reach out. I&apos;ll get back to you as soon as possible.
             </p>
           </div>
 
